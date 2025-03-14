@@ -1,0 +1,70 @@
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.task-input {
+  width: 237px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.add-button {
+  justify-content: center;
+  background-color: #e0e0e0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.add-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.delete-button {
+  justify-content: center;
+  background-color: #e0e0e0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+
+.delete-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.task-title {
+  flex-grow: 1;
+  text-align: left;
+  overflow: hidden;
+}
